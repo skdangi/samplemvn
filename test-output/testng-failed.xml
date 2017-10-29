@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test name="Regression1(failed)">
+    <classes>
+      <class name="com.appium.maas.tests.mail.MultiselectMails">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="multiselectCancel"/>
+        </methods>
+      </class> <!-- com.appium.maas.tests.mail.MultiselectMails -->
+      <class name="com.appium.maas.tests.mail.ComposeMail">
+        <methods>
+          <include name="verifySendMail"/>
+        </methods>
+      </class> <!-- com.appium.maas.tests.mail.ComposeMail -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

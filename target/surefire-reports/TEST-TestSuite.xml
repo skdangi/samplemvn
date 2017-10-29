@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="133.239" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.91-b14"/>
+    <property name="user.country.format" value="IN"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/Sarita/Documents/Workspace/samplemvn"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/Sarita/Documents/Workspace/samplemvn"/>
+    <property name="java.runtime.version" value="1.8.0_91-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/xf/y45k7kfx2sd36jgb2733hzqh0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/Sarita/Documents/Workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf274040892037440824.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/Sarita/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.12.6"/>
+    <property name="user.home" value="/Users/Sarita"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Sarita"/>
+    <property name="java.class.path" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_1.8.2.20171007-0216/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -s /Users/Sarita/Documents/Workspace/samplemvn/pom.xml test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_91"/>
+    <property name="java.ext.dirs" value="/Users/Sarita/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/Sarita/Documents/Workspace/samplemvn/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="verifySendMail" classname="com.appium.maas.tests.mail.ComposeMail" time="75.577"/>
+  <testcase name="multiselectCancel" classname="com.appium.maas.tests.mail.MultiselectMails" time="57.662">
+    <failure message="Compose button is not present on  inbox screen expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Compose button is not present on  inbox screen expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.appium.maas.tests.mail.MultiselectMails.multiselectCancel(MultiselectMails.java:21)
+</failure>
+    <system-out><![CDATA[as360.enterpriseappstore"}
+[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa 200 794 ms - 482 
+[HTTP] --> POST /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa/element {"using":"name","value":"Compose"}
+[debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["name","Compose","c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'findElement'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C/element] with body: {"using":"name","value":"Compose"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":{"ELEMENT":"3C56B08A-30BB-4C41-B97E-A06E34D03ADE"},"sessionId":"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"3C56B08A-30BB-4C41-B97E-A06E34D03ADE"}
+[HTTP] <-- POST /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa/element 200 1967 ms - 122 
+[HTTP] --> GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa {}
+[debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"MaaS360\",\n      \"sdkVersion\" : \"11.0.3\",\n      \"CFBundleIdentifier\" : \"com.fiberlink.maas360.enterpriseappstore\"\n    }\n  },\n  \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"c51a0190f40c5fc58e6bd3e052e9a6985f53cb03","newCommandTimeout":90,"platformVersion":"11.0","appiumVersion":"1.7.1","bundleId":"com.fiberlink.maas360.enterpriseappstore","deviceOrientation":"portrait","AUTOMATION_NAME":"XCUITest","platformName":"iOS","deviceName":"iPhone 6","device":"iphone","browserName":"MaaS360","sdkVersion":"11.0.3","CFBundleIdentifier":"com.fiberlink.maas360.enterpriseappstore"}
+[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa 200 805 ms - 482 
+[HTTP] --> GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa {}
+[debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"MaaS360\",\n      \"sdkVersion\" : \"11.0.3\",\n      \"CFBundleIdentifier\" : \"com.fiberlink.maas360.enterpriseappstore\"\n    }\n  },\n  \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"c51a0190f40c5fc58e6bd3e052e9a6985f53cb03","newCommandTimeout":90,"platformVersion":"11.0","appiumVersion":"1.7.1","bundleId":"com.fiberlink.maas360.enterpriseappstore","deviceOrientation":"portrait","AUTOMATION_NAME":"XCUITest","platformName":"iOS","deviceName":"iPhone 6","device":"iphone","browserName":"MaaS360","sdkVersion":"11.0.3","CFBundleIdentifier":"com.fiberlink.maas360.enterpriseappstore"}
+[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa 200 758 ms - 482 
+[HTTP] --> GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa {}
+[debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"MaaS360\",\n      \"sdkVersion\" : \"11.0.3\",\n      \"CFBundleIdentifier\" : \"com.fiberlink.maas360.enterpriseappstore\"\n    }\n  },\n  \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"c51a0190f40c5fc58e6bd3e052e9a6985f53cb03","newCommandTimeout":90,"platformVersion":"11.0","appiumVersion":"1.7.1","bundleId":"com.fiberlink.maas360.enterpriseappstore","deviceOrientation":"portrait","AUTOMATION_NAME":"XCUITest","platformName":"iOS","deviceName":"iPhone 6","device":"iphone","browserName":"MaaS360","sdkVersion":"11.0.3","CFBundleIdentifier":"com.fiberlink.maas360.enterpriseappstore"}
+[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa 200 766 ms - 482 
+[HTTP] --> GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa {}
+[debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"MaaS360\",\n      \"sdkVersion\" : \"11.0.3\",\n      \"CFBundleIdentifier\" : \"com.fiberlink.maas360.enterpriseappstore\"\n    }\n  },\n  \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"c51a0190f40c5fc58e6bd3e052e9a6985f53cb03","newCommandTimeout":90,"platformVersion":"11.0","appiumVersion":"1.7.1","bundleId":"com.fiberlink.maas360.enterpriseappstore","deviceOrientation":"portrait","AUTOMATION_NAME":"XCUITest","platformName":"iOS","deviceName":"iPhone 6","device":"iphone","browserName":"MaaS360","sdkVersion":"11.0.3","CFBundleIdentifier":"com.fiberlink.maas360.enterpriseappstore"}
+[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa 200 780 ms - 482 
+Select Mails
+By.name: Select Mails
+[HTTP] --> GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa {}
+[debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"MaaS360\",\n      \"sdkVersion\" : \"11.0.3\",\n      \"CFBundleIdentifier\" : \"com.fiberlink.maas360.enterpriseappstore\"\n    }\n  },\n  \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"c51a0190f40c5fc58e6bd3e052e9a6985f53cb03","newCommandTimeout":90,"platformVersion":"11.0","appiumVersion":"1.7.1","bundleId":"com.fiberlink.maas360.enterpriseappstore","deviceOrientation":"portrait","AUTOMATION_NAME":"XCUITest","platformName":"iOS","deviceName":"iPhone 6","device":"iphone","browserName":"MaaS360","sdkVersion":"11.0.3","CFBundleIdentifier":"com.fiberlink.maas360.enterpriseappstore"}
+[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa 200 801 ms - 482 
+[HTTP] --> GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa {}
+[debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"MaaS360\",\n      \"sdkVersion\" : \"11.0.3\",\n      \"CFBundleIdentifier\" : \"com.fiberlink.maas360.enterpriseappstore\"\n    }\n  },\n  \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"c51a0190f40c5fc58e6bd3e052e9a6985f53cb03","newCommandTimeout":90,"platformVersion":"11.0","appiumVersion":"1.7.1","bundleId":"com.fiberlink.maas360.enterpriseappstore","deviceOrientation":"portrait","AUTOMATION_NAME":"XCUITest","platformName":"iOS","deviceName":"iPhone 6","device":"iphone","browserName":"MaaS360","sdkVersion":"11.0.3","CFBundleIdentifier":"com.fiberlink.maas360.enterpriseappstore"}
+iOS: null[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa 200 784 ms - 482 
+
+[HTTP] --> POST /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa/element {"using":"name","value":"Select Mails"}
+[debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["name","Select Mails","c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'findElement'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C/element] with body: {"using":"name","value":"Select Mails"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":{"ELEMENT":"A556AB65-3C07-4A7B-B925-999E3138342E"},"sessionId":"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"A556AB65-3C07-4A7B-B925-999E3138342E"}
+[HTTP] <-- POST /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa/element 200 1988 ms - 122 
+[HTTP] --> GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa {}
+[debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"MaaS360\",\n      \"sdkVersion\" : \"11.0.3\",\n      \"CFBundleIdentifier\" : \"com.fiberlink.maas360.enterpriseappstore\"\n    }\n  },\n  \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"c51a0190f40c5fc58e6bd3e052e9a6985f53cb03","newCommandTimeout":90,"platformVersion":"11.0","appiumVersion":"1.7.1","bundleId":"com.fiberlink.maas360.enterpriseappstore","deviceOrientation":"portrait","AUTOMATION_NAME":"XCUITest","platformName":"iOS","deviceName":"iPhone 6","device":"iphone","browserName":"MaaS360","sdkVersion":"11.0.3","CFBundleIdentifier":"com.fiberlink.maas360.enterpriseappstore"}
+[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa 200 801 ms - 482 
+[HTTP] --> GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa {}
+[debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"MaaS360\",\n      \"sdkVersion\" : \"11.0.3\",\n      \"CFBundleIdentifier\" : \"com.fiberlink.maas360.enterpriseappstore\"\n    }\n  },\n  \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"c51a0190f40c5fc58e6bd3e052e9a6985f53cb03","newCommandTimeout":90,"platformVersion":"11.0","appiumVersion":"1.7.1","bundleId":"com.fiberlink.maas360.enterpriseappstore","deviceOrientation":"portrait","AUTOMATION_NAME":"XCUITest","platformName":"iOS","deviceName":"iPhone 6","device":"iphone","browserName":"MaaS360","sdkVersion":"11.0.3","CFBundleIdentifier":"com.fiberlink.maas360.enterpriseappstore"}
+[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa 200 785 ms - 482 
+[HTTP] --> GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa {}
+[debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"MaaS360\",\n      \"sdkVersion\" : \"11.0.3\",\n      \"CFBundleIdentifier\" : \"com.fiberlink.maas360.enterpriseappstore\"\n    }\n  },\n  \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"c51a0190f40c5fc58e6bd3e052e9a6985f53cb03","newCommandTimeout":90,"platformVersion":"11.0","appiumVersion":"1.7.1","bundleId":"com.fiberlink.maas360.enterpriseappstore","deviceOrientation":"portrait","AUTOMATION_NAME":"XCUITest","platformName":"iOS","deviceName":"iPhone 6","device":"iphone","browserName":"MaaS360","sdkVersion":"11.0.3","CFBundleIdentifier":"com.fiberlink.maas360.enterpriseappstore"}
+[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa 200 769 ms - 482 
+[HTTP] --> GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa {}
+[debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"MaaS360\",\n      \"sdkVersion\" : \"11.0.3\",\n      \"CFBundleIdentifier\" : \"com.fiberlink.maas360.enterpriseappstore\"\n    }\n  },\n  \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"c51a0190f40c5fc58e6bd3e052e9a6985f53cb03","newCommandTimeout":90,"platformVersion":"11.0","appiumVersion":"1.7.1","bundleId":"com.fiberlink.maas360.enterpriseappstore[[iOS: null] -> name: Select Mails]","deviceOrientation":"portrait","AUTOMATION_NAME":"XCUITest
+","platformName":"iOS","deviceName":"iPhone 6","device":"iphone","browserName":"MaaS360","sdkVersion":"11.0.3","CFBundleIdentifier":"com.fiberlink.maas360.enterpriseappstore"}
+[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa 200 791 ms - 482 
+[HTTP] --> POST /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa/element {"using":"name","value":"Select Mails"}
+[debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["name","Select Mails","c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'findElement'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C/element] with body: {"using":"name","value":"Select Mails"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":{"ELEMENT":"2F096415-A52F-44A6-ACB8-B9EA147662D5"},"sessionId":"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"2F096415-A52F-44A6-ACB8-B9EA147662D5"}
+[HTTP] <-- POST /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa/element 200 2059 ms - 122 
+[HTTP] --> GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa {}
+[debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"MaaS360\",\n      \"sdkVersion\" : \"11.0.3\",\n      \"CFBundleIdentifier\" : \"com.fiberlink.maas360.enterpriseappstore\"\n    }\n  },\n  \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"c51a0190f40c5fc58e6bd3e052e9a6985f53cb03","newCommandTimeout":90,"platformVersion":"11.0","appiumVersion":"1.7.1","bundleId":"com.fiberlink.maas360.enterpriseappstore","deviceOrientation":"portrait","AUTOMATION_NAME":"XCUITest","platformName":"iOS","deviceName":"iPhone 6","device":"iphone","browserName":"MaaS360","sdkVersion":"11.0.3","CFBundleIdentifier":"com.fiberlink.maas360.enterpriseappstore"}
+[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa 200 780 ms - 482 
+[HTTP] --> GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa {}
+[debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"MaaS360\",\n      \"sdkVersion\" : \"11.0.3\",\n      \"CFBundleIdentifier\" : \"com.fiberlink.maas360.enterpriseappstore\"\n    }\n  },\n  \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"c51a0190f40c5fc58e6bd3e052e9a6985f53cb03","newCommandTimeout":90,"platformVersion":"11.0","appiumVersion":"1.7.1","bundleId":"com.fiberlink.maas360.enterpriseappstore","deviceOrientation":"portrait","AUTOMATION_NAME":"XCUITest","platformName":"iOS","deviceName":"iPhone 6","device":"iphone","browserName":"MaaS360","sdkVersion":"11.0.3","CFBundleIdentifier":"com.fiberlink.maas360.enterpriseappstore"}
+[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa 200 773 ms - 482 
+[HTTP] --> GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa {}
+[debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"MaaS360\",\n      \"sdkVersion\" : \"11.0.3\",\n      \"CFBundleIdentifier\" : \"com.fiberlink.maas360.enterpriseappstore\"\n    }\n  },\n  \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"c51a0190f40c5fc58e6bd3e052e9a6985f53cb03","newCommandTimeout":90,"platformVersion":"11.0","appiumVersion":"1.7.1","bundleId":"com.fiberlink.maas360.enterpriseappstore","deviceOrientation":"portrait","AUTOMATION_NAME":"XCUITest","platformName":"iOS","deviceName":"iPhone 6","device":"iphone","browserName":"MaaS360","sdkVersion":"11.0.3","CFBundleIdentifier":"com.fiberlink.maas360.enterpriseappstore"}
+[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa 200 768 ms - 482 
+[HTTP] --> GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa {}
+[debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"MaaS360\",\n      \"sdkVersion\" : \"11.0.3\",\n      \"CFBundleIdentifier\" : \"com.fiberlink.maas360.enterpriseappstore\"\n    }\n  },\n  \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"c51a0190f40c5fc58e6bd3e052e9a6985f53cb03","newCommandTimeout":90,"platformVersion":"11.0","appiumVersion":"1.7.1","bundleId":"com.fiberlink.maas360.enterpriseappstore","deviceOrientation":"portrait","AUTOMATION_NAME":"XCUITest","platformName":"iOS","deviceName":"iPhone 6","device":"iphone","browserName":"MaaS360","sdkVersion":"11.0.3","CFBundleIdentifier":"com.fiberlink.maas360.enterpriseappstore"}
+[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa 200 754 ms - 482 
+[HTTP] --> POST /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa/element/2F096415-A52F-44A6-ACB8-B9EA147662D5/click {"id":"2F096415-A52F-44A6-ACB8-B9EA147662D5"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [POST /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa/element/2F096415-A52F-44A6-ACB8-B9EA147662D5/click] to [POST http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C/element/2F096415-A52F-44A6-ACB8-B9EA147662D5/click] with body: {"id":"2F096415-A52F-44A6-ACB8-B9EA147662D5"}
+[debug] [JSONWP Proxy] Got response with status 200: {"status":0,"id":"2F096415-A52F-44A6-ACB8-B9EA147662D5","value":"","sessionId":"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C"}
+[JSONWP Proxy] Replacing sessionId 0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C with c056f179-2869-4b3b-9ef5-8450ea3451fa
+[HTTP] <-- POST /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa/element/2F096415-A52F-44A6-ACB8-B9EA147662D5/click 200 6319 ms - 118 
+[HTTP] --> POST /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa/element {"using":"name","value":"Cancel"}
+[debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["name","Cancel","c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'findElement'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C/element] with body: {"using":"name","value":"Cancel"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":{"ELEMENT":"8ACFE0ED-E61A-4A20-A57B-1F4F5FAD0568"},"sessionId":"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"8ACFE0ED-E61A-4A20-A57B-1F4F5FAD0568"}
+[HTTP] <-- POST /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa/element 200 2083 ms - 122 
+[HTTP] --> GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa {}
+[debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"MaaS360\",\n      \"sdkVersion\" : \"11.0.3\",\n      \"CFBundleIdentifier\" : \"com.fiberlink.maas360.enterpriseappstore\"\n    }\n  },\n  \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"c51a0190f40c5fc58e6bd3e052e9a6985f53cb03","newCommandTimeout":90,"platformVersion":"11.0","appiumVersion":"1.7.1","bundleId":"com.fiberlink.maas360.enterpriseappstore","deviceOrientation":"portrait","AUTOMATION_NAME":"XCUITest","platformName":"iOS","deviceName":"iPhone 6","device":"iphone","browserName":"MaaS360","sdkVersion":"11.0.3","CFBundleIdentifier":"com.fiberlink.maas360.enterpriseappstore"}
+[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa 200 742 ms - 482 
+[HTTP] --> GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa {}
+[debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"MaaS360\",\n      \"sdkVersion\" : \"11.0.3\",\n      \"CFBundleIdentifier\" : \"com.fiberlink.maas360.enterpriseappstore\"\n    }\n  },\n  \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"c51a0190f40c5fc58e6bd3e052e9a6985f53cb03","newCommandTimeout":90,"platformVersion":"11.0","appiumVersion":"1.7.1","bundleId":"com.fiberlink.maas360.enterpriseappstore","deviceOrientation":"portrait","AUTOMATION_NAME":"XCUITest","platformName":"iOS","deviceName":"iPhone 6","device":"iphone","browserName":"MaaS360","sdkVersion":"11.0.3","CFBundleIdentifier":"com.fiberlink.maas360.enterpriseappstore"}
+[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa 200 745 ms - 482 
+[HTTP] --> GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa {}
+[debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"MaaS360\",\n      \"sdkVersion\" : \"11.0.3\",\n      \"CFBundleIdentifier\" : \"com.fiberlink.maas360.enterpriseappstore\"\n    }\n  },\n  \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"c51a0190f40c5fc58e6bd3e052e9a6985f53cb03","newCommandTimeout":90,"platformVersion":"11.0","appiumVersion":"1.7.1","bundleId":"com.fiberlink.maas360.enterpriseappstore","deviceOrientation":"portrait","AUTOMATION_NAME":"XCUITest","platformName":"iOS","deviceName":"iPhone 6","device":"iphone","browserName":"MaaS360","sdkVersion":"11.0.3","CFBundleIdentifier":"com.fiberlink.maas360.enterpriseappstore"}
+[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa 200 779 ms - 482 
+[HTTP] --> GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa {}
+[debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"MaaS360\",\n      \"sdkVersion\" : \"11.0.3\",\n      \"CFBundleIdentifier\" : \"com.fiberlink.maas360.enterpriseappstore\"\n    }\n  },\n  \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"c51a0190f40c5fc58e6bd3e052e9a6985f53cb03","newCommandTimeout":90,"platformVersion":"11.0","appiumVersion":"1.7.1","bundleId":"com.fiberlink.maas360.enterpriseappstore","deviceOrientation":"portrait","AUTOMATION_NAME":"XCUITest","platformName":"iOS","deviceName":"iPhone 6","device":"iphone","browserName":"MaaS360","sdkVersion":"11.0.3","CFBundleIdentifier":"com.fiberlink.maas360.enterpriseappstore"}
+[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa 200 740 ms - 482 
+[HTTP] --> POST /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa/element {"using":"name","value":"Compose"}
+[debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["name","Compose","c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'findElement'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C/element] with body: {"using":"name","value":"Compose"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":{"using":"name","value":"Compose","description":"unable to find an element"},"sessionId":"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C","status":7}
+[HTTP] <-- POST /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa/element 500 1914 ms - 164 
+Cancel
+By.name: Cancel
+[HTTP] --> GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa {}
+[debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"MaaS360\",\n      \"sdkVersion\" : \"11.0.3\",\n      \"CFBundleIdentifier\" : \"com.fiberlink.maas360.enterpriseappstore\"\n    }\n  },\n  \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"c51a0190f40c5fc58e6bd3e052e9a6985f53cb03","newCommandTimeout":90,"platformVersion":"11.0","appiumVersion":"1.7.1","bundleId":"com.fiberlink.maas360.enterpriseappstore","deviceOrientation":"portrait","AUTOMATION_NAME":"XCUITest","platformName":"iOS","deviceName":"iPhone 6","device":"iphone","browserName":"MaaS360","sdkVersion":"11.0.3","CFBundleIdentifier":"com.fiberlink.maas360.enterpriseappstore"}
+[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa 200 767 ms - 482 
+[HTTP] --> GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa {}
+[debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"MaaS360\",\n      \"sdkVersion\" : \"11.0.3\",\n      \"CFBundleIdentifier\" : \"com.fiberlink.maas360.enterpriseappstore\"\n    }\n  },\n  \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"c51a0190f40c5fc58e6bd3e052e9a6985f53cb03","newCommandTimeout":90,"platformVersion":"11.0","appiumVersion":"1.7.1","bundleId":"com.fiberlink.maas360.enterpriseappstore","deviceOrientation":"portrait","AUTOMATION_NAME":"XCUITest","platformName":"iOS","deviceName":"iPhone 6","device":"iphone","browserName":"MaaS360","sdkVersion":"11.0.3","CFBundleIdentifier":"com.fiberlink.maas360.enterpriseappstore"}
+[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-iOS: null9ef5-8450ea3451fa 200 757 ms - 482 
+
+[HTTP] --> POST /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa/element {"using":"name","value":"Cancel"}
+[debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["name","Cancel","c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'findElement'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C/element] with body: {"using":"name","value":"Cancel"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":{"ELEMENT":"55D364AB-6C23-4DC4-A21F-07A0B57C153A"},"sessionId":"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"55D364AB-6C23-4DC4-A21F-07A0B57C153A"}
+[HTTP] <-- POST /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa/element 200 1925 ms - 122 
+[HTTP] --> GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa {}
+[debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"MaaS360\",\n      \"sdkVersion\" : \"11.0.3\",\n      \"CFBundleIdentifier\" : \"com.fiberlink.maas360.enterpriseappstore\"\n    }\n  },\n  \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"c51a0190f40c5fc58e6bd3e052e9a6985f53cb03","newCommandTimeout":90,"platformVersion":"11.0","appiumVersion":"1.7.1","bundleId":"com.fiberlink.maas360.enterpriseappstore","deviceOrientation":"portrait","AUTOMATION_NAME":"XCUITest","platformName":"iOS","deviceName":"iPhone 6","device":"iphone","browserName":"MaaS360","sdkVersion":"11.0.3","CFBundleIdentifier":"com.fiberlink.maas360.enterpriseappstore"}
+[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa 200 734 ms - 482 
+[HTTP] --> GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa {}
+[debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"MaaS360\",\n      \"sdkVersion\" : \"11.0.3\",\n      \"CFBundleIdentifier\" : \"com.fiberlink.maas360.enterpriseappstore\"\n    }\n  },\n  \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"c51a0190f40c5fc58e6bd3e052e9a6985f53cb03","newCommandTimeout":90,"platformVersion":"11.0","appiumVersion":"1.7.1","bundleId":"com.fiberlink.maas360.enterpriseappstore","deviceOrientation":"portrait","AUTOMATION_NAME":"XCUITest","platformName":"iOS","deviceName":"iPhone 6","device":"iphone","browserName":"MaaS360","sdkVersion":"11.0.3","CFBundleIdentifier":"com.fiberlink.maas360.enterpriseappstore"}
+[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa 200 757 ms - 482 
+[HTTP] --> GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa {}
+[debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"MaaS360\",\n      \"sdkVersion\" : \"11.0.3\",\n      \"CFBundleIdentifier\" : \"com.fiberlink.maas360.enterpriseappstore\"\n    }\n  },\n  \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"c51a0190f40c5fc58e6bd3e052e9a6985f53cb03","newCommandTimeout":90,"platformVersion":"11.0","appiumVersion":"1.7.1","bundleId":"com.fiberlink.maas360.enterpriseappstore","deviceOrientation":"portrait","AUTOMATION_NAME":"XCUITest","platformName":"iOS","deviceName":"iPhone 6","device":"iphone","browserName":"MaaS360","sdkVersion":"11.0.3","CFBundleIdentifier":"com.fiberlink.maas360.enterpriseappstore"}
+[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa 200 803 ms - 482 
+[HTTP] --> GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa {}
+[debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"MaaS360\",\n      \"sdkVersion\" : \"11.0.3\",\n      \"CFBundleIdentifier\" : \"com.fiberlink.maas360.enterpriseappstore\"\n    }\n  },\n  \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"c51a0190f40c5fc58e6bd3e052e9a6985f53cb03","newCommandTimeout":90,"platformVersion":"11.0","appiumVersion":"1.7.1","bundleId":"com.fiberlink.maas360.enterpriseappstore","deviceOrientation":"portrait","AUTOMATION_NAME":"XCUITest","platformName":"iOS","deviceName":"iPhone 6","device":"iphone","browserName":"MaaS360","sdkVersion":"11.0.3","CFBundleIdentifier":"com.fiberlink.maas360.enterpriseappstore"}
+[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa 200 811 ms - 482 
+[[iOS: null] -> name: Cancel]
+[HTTP] --> POST /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa/element {"using":"name","value":"Cancel"}
+[debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["name","Cancel","c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'findElement'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C/element] with body: {"using":"name","value":"Cancel"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":{"ELEMENT":"35BC905C-31F3-4B5B-A118-F1E5094AB813"},"sessionId":"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"35BC905C-31F3-4B5B-A118-F1E5094AB813"}
+[HTTP] <-- POST /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa/element 200 2054 ms - 122 
+[HTTP] --> GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa {}
+[debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"MaaS360\",\n      \"sdkVersion\" : \"11.0.3\",\n      \"CFBundleIdentifier\" : \"com.fiberlink.maas360.enterpriseappstore\"\n    }\n  },\n  \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"c51a0190f40c5fc58e6bd3e052e9a6985f53cb03","newCommandTimeout":90,"platformVersion":"11.0","appiumVersion":"1.7.1","bundleId":"com.fiberlink.maas360.enterpriseappstore","deviceOrientation":"portrait","AUTOMATION_NAME":"XCUITest","platformName":"iOS","deviceName":"iPhone 6","device":"iphone","browserName":"MaaS360","sdkVersion":"11.0.3","CFBundleIdentifier":"com.fiberlink.maas360.enterpriseappstore"}
+[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa 200 846 ms - 482 
+[HTTP] --> GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa {}
+[debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"MaaS360\",\n      \"sdkVersion\" : \"11.0.3\",\n      \"CFBundleIdentifier\" : \"com.fiberlink.maas360.enterpriseappstore\"\n    }\n  },\n  \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"c51a0190f40c5fc58e6bd3e052e9a6985f53cb03","newCommandTimeout":90,"platformVersion":"11.0","appiumVersion":"1.7.1","bundleId":"com.fiberlink.maas360.enterpriseappstore","deviceOrientation":"portrait","AUTOMATION_NAME":"XCUITest","platformName":"iOS","deviceName":"iPhone 6","device":"iphone","browserName":"MaaS360","sdkVersion":"11.0.3","CFBundleIdentifier":"com.fiberlink.maas360.enterpriseappstore"}
+[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa 200 834 ms - 482 
+[HTTP] --> GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa {}
+[debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"MaaS360\",\n      \"sdkVersion\" : \"11.0.3\",\n      \"CFBundleIdentifier\" : \"com.fiberlink.maas360.enterpriseappstore\"\n    }\n  },\n  \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"c51a0190f40c5fc58e6bd3e052e9a6985f53cb03","newCommandTimeout":90,"platformVersion":"11.0","appiumVersion":"1.7.1","bundleId":"com.fiberlink.maas360.enterpriseappstore","deviceOrientation":"portrait","AUTOMATION_NAME":"XCUITest","platformName":"iOS","deviceName":"iPhone 6","device":"iphone","browserName":"MaaS360","sdkVersion":"11.0.3","CFBundleIdentifier":"com.fiberlink.maas360.enterpriseappstore"}
+[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa 200 841 ms - 482 
+[HTTP] --> GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa {}
+[debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"MaaS360\",\n      \"sdkVersion\" : \"11.0.3\",\n      \"CFBundleIdentifier\" : \"com.fiberlink.maas360.enterpriseappstore\"\n    }\n  },\n  \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"c51a0190f40c5fc58e6bd3e052e9a6985f53cb03","newCommandTimeout":90,"platformVersion":"11.0","appiumVersion":"1.7.1","bundleId":"com.fiberlink.maas360.enterpriseappstore","deviceOrientation":"portrait","AUTOMATION_NAME":"XCUITest","platformName":"iOS","deviceName":"iPhone 6","device":"iphone","browserName":"MaaS360","sdkVersion":"11.0.3","CFBundleIdentifier":"com.fiberlink.maas360.enterpriseappstore"}
+[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa 200 832 ms - 482 
+[HTTP] --> POST /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa/element/35BC905C-31F3-4B5B-A118-F1E5094AB813/click {"id":"35BC905C-31F3-4B5B-A118-F1E5094AB813"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[debug] [XCUITest] Executing command 'proxyReqRes'
+[debug] [JSONWP Proxy] Proxying [POST /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa/element/35BC905C-31F3-4B5B-A118-F1E5094AB813/click] to [POST http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C/element/35BC905C-31F3-4B5B-A118-F1E5094AB813/click] with body: {"id":"35BC905C-31F3-4B5B-A118-F1E5094AB813"}
+[debug] [JSONWP Proxy] Got response with status 200: {"status":0,"id":"35BC905C-31F3-4B5B-A118-F1E5094AB813","value":"","sessionId":"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C"}
+[JSONWP Proxy] Replacing sessionId 0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C with c056f179-2869-4b3b-9ef5-8450ea3451fa
+[HTTP] <-- POST /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa/element/35BC905C-31F3-4B5B-A118-F1E5094AB813/click 200 7058 ms - 118 
+[HTTP] --> POST /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa/element {"using":"name","value":"Compose"}
+[debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["name","Compose","c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'findElement'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C/element] with body: {"using":"name","value":"Compose"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":{"ELEMENT":"787054B9-0EEE-4C3F-9AA0-AAA91B7AF696"},"sessionId":"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C","status":0}
+[debug] [MJSONWP] Responding to client with driver.findElement() result: {"ELEMENT":"787054B9-0EEE-4C3F-9AA0-AAA91B7AF696"}
+[HTTP] <-- POST /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa/element 200 2375 ms - 122 
+[HTTP] --> GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa {}
+[debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"MaaS360\",\n      \"sdkVersion\" : \"11.0.3\",\n      \"CFBundleIdentifier\" : \"com.fiberlink.maas360.enterpriseappstore\"\n    }\n  },\n  \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"c51a0190f40c5fc58e6bd3e052e9a6985f53cb03","newCommandTimeout":90,"platformVersion":"11.0","appiumVersion":"1.7.1","bundleId":"com.fiberlink.maas360.enterpriseappstore","deviceOrientation":"portrait","AUTOMATION_NAME":"XCUITest","platformName":"iOS","deviceName":"iPhone 6","device":"iphone","browserName":"MaaS360","sdkVersion":"11.0.3","CFBundleIdentifier":"com.fiberlink.maas360.enterpriseappstore"}
+[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa 200 854 ms - 482 
+[HTTP] --> GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa {}
+[debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"MaaS360\",\n      \"sdkVersion\" : \"11.0.3\",\n      \"CFBundleIdentifier\" : \"com.fiberlink.maas360.enterpriseappstore\"\n    }\n  },\n  \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"c51a0190f40c5fc58e6bd3e052e9a6985f53cb03","newCommandTimeout":90,"platformVersion":"11.0","appiumVersion":"1.7.1","bundleId":"com.fiberlink.maas360.enterpriseappstore","deviceOrientation":"portrait","AUTOMATION_NAME":"XCUITest","platformName":"iOS","deviceName":"iPhone 6","device":"iphone","browserName":"MaaS360","sdkVersion":"11.0.3","CFBundleIdentifier":"com.fiberlink.maas360.enterpriseappstore"}
+[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa 200 874 ms - 482 
+[HTTP] --> GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa {}
+[debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"MaaS360\",\n      \"sdkVersion\" : \"11.0.3\",\n      \"CFBundleIdentifier\" : \"com.fiberlink.maas360.enterpriseappstore\"\n    }\n  },\n  \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"c51a0190f40c5fc58e6bd3e052e9a6985f53cb03","newCommandTimeout":90,"platformVersion":"11.0","appiumVersion":"1.7.1","bundleId":"com.fiberlink.maas360.enterpriseappstore","deviceOrientation":"portrait","AUTOMATION_NAME":"XCUITest","platformName":"iOS","deviceName":"iPhone 6","device":"iphone","browserName":"MaaS360","sdkVersion":"11.0.3","CFBundleIdentifier":"com.fiberlink.maas360.enterpriseappstore"}
+[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa 200 850 ms - 482 
+[HTTP] --> GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa {}
+[debug] [MJSONWP] Calling AppiumDriver.getSession() with args: ["c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'getSession'
+[debug] [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n    \"capabilities\" : {\n      \"device\" : \"iphone\",\n      \"browserName\" : \"MaaS360\",\n      \"sdkVersion\" : \"11.0.3\",\n      \"CFBundleIdentifier\" : \"com.fiberlink.maas360.enterpriseappstore\"\n    }\n  },\n  \"sessionId\" : \"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C\",\n  \"status\" : 0\n}"
+[XCUITest] Merging WDA caps over Appium caps for session detail response
+[debug] [MJSONWP] Responding to client with driver.getSession() result: {"udid":"c51a0190f40c5fc58e6bd3e052e9a6985f53cb03","newCommandTimeout":90,"platformVersion":"11.0","appiumVersion":"1.7.1","bundleId":"com.fiberlink.maas360.enterpriseappstore","deviceOrientation":"portrait","AUTOMATION_NAME":"XCUITest","platformName":"iOS","deviceName":"iPhone 6","device":"iphone","browserName":"MaaS360","sdkVersion":"11.0.3","CFBundleIdentifier":"com.fiberlink.maas360.enterpriseappstore"}
+[HTTP] <-- GET /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa 200 848 ms - 482 
+[HTTP] --> POST /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa/element {"using":"name","value":"Compose"}
+[debug] [MJSONWP] Calling AppiumDriver.findElement() with args: ["name","Compose","c056f179-2869-4b3b-9ef5-8450ea3451fa"]
+[debug] [XCUITest] Executing command 'findElement'
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id
+[debug] [BaseDriver] Waiting up to 0 ms for condition
+[debug] [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8100/session/0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C/element] with body: {"using":"name","value":"Compose"}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":{"using":"name","value":"Compose","description":"unable to find an element"},"sessionId":"0AD037E5-AA03-4AA2-8E4C-2E5974A1E83C","status":7}
+[HTTP] <-- POST /wd/hub/session/c056f179-2869-4b3b-9ef5-8450ea3451fa/element 500 2389 ms - 164 
+]]></system-out>
+  </testcase>
+</testsuite>
